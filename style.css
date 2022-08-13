@@ -100,7 +100,7 @@
     padding: 12px 24px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
   }
   .container .btn6:hover {
     background-color:rgb(43,43,44);
@@ -121,7 +121,7 @@
     padding: 12px 24px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
   }
   .container .btn7:hover {
     background-color:rgb(43,43,44);
