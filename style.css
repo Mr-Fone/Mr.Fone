@@ -89,9 +89,9 @@
   }
   .container .btn6 {
     position: absolute;
-    width: 25%;
-    top: 60%;
-    left: 50%;
+    width: 50%;
+    top: 60.5%;
+    left: 63%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color:transparent;
@@ -102,39 +102,8 @@
     cursor: pointer;
     border-radius: 10px;
   }
-  .container .btn6:hover {
-    background-color:rgb(43,43,44);
-    color: white;
-    opacity: 0.8;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 10px;
-    
-    
-  }
+  
   .container .btn7 {
-    position: absolute;
-    width: 25%;
-    top: 60%;
-    left: 77%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color:transparent;
-    color: transparent;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-  }
-  .container .btn7:hover {
-    background-color:rgb(43,43,44);
-    color: white;
-    opacity: 0.8;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 10px;
-    
-  }
-  .container .btn8 {
     position: absolute;
     width: 50%;
     top: 69.25%;
@@ -149,7 +118,7 @@
     cursor: pointer;
     border-radius: 5px;
   }
-  .container .btn9 {
+  .container .btn8 {
     position: absolute;
     width: 50%;
     top: 78.5%;
@@ -163,4 +132,9 @@
     border: none;
     cursor: pointer;
     border-radius: 5px;
+  }
+  .modal-footer{
+    position: relative;
+    align-content: center;
+    align-items: center;
   }
