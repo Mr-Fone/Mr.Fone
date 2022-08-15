@@ -133,8 +133,3 @@
     cursor: pointer;
     border-radius: 5px;
   }
-  .modal-footer{
-    position: relative;
-    align-content: center;
-    align-items: center;
-  }
