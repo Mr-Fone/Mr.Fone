@@ -1,4 +1,4 @@
-const a_tag = document.querySelector("#sms")
+const a_tag = document.querySelector("")
 
 function getMobileOperatingSystem() {
   var userAgent = navigator.userAgent || navigator.vendor || window.opera;
