@@ -5,7 +5,7 @@ function getMobileOperatingSystem(){
         return window.location.href = android.html
     }
     if(/android/i.test(userAgent)){
-        return window.location.href =("android.html")
+        return window.location.href ="android.html
     }
     if(/iPad|iPhone|iPod/.test(userAgent)&& !window.MSStream){
         return window.location.href =index.html
