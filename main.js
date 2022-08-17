@@ -5,13 +5,13 @@ function getMobileOperatingSystem() {
 
 
   if (/android/i.test(userAgent)) {
-    a_tag.href = "sms://#?body=#"
+    window.location.replace("android.html")
 
   }
 
   // iOS detection from: http://stackoverflow.com/a/9039885/177710
   if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-    a_tag.href = "sms://#;?&body=#"
+    window.location.replace("ios.html")
   }
 
 }
