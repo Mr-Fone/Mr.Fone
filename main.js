@@ -5,13 +5,13 @@ function getMobileOperatingSystem() {
 
 
   if (/android/i.test(userAgent)) {
-    window.location.replace('/android.html')
+    window.location.replace("index.html");
 
   }
 
   // iOS detection from: http://stackoverflow.com/a/9039885/177710
   if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-    window.location.pathname="desktop/MR.FONE/ios.html";
+    window.location.replace=("ios.html");
   }
 
 }
